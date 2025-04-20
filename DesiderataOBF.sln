@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35828.75 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BitObfuscator.UI", "BitObfuscator.UI\BitObfuscator.UI.csproj", "{6F3F3F91-0F45-4A82-A458-9EB53C2BC9A6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BitObfuscator.Core", "BitObfuscator.Core\BitObfuscator.Core.csproj", "{4467A828-BC9D-44A7-A334-C95A561362A7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BitObfuscator.Protections", "BitObfuscator.Protections\BitObfuscator.Protections.csproj", "{1828547D-EDD8-45DB-8113-C85AE3ACB3B4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BitObfuscator.Helpers", "BitObfuscator.Helpers\BitObfuscator.Helpers.csproj", "{29697316-1316-4C9D-B421-96EDD9F72EF6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BitObfuscator.Runtime", "BitObfuscator.Runtime\BitObfuscator.Runtime.csproj", "{7E98315D-3B98-48DC-8E5F-759D3FF2F406}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6F3F3F91-0F45-4A82-A458-9EB53C2BC9A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F3F3F91-0F45-4A82-A458-9EB53C2BC9A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F3F3F91-0F45-4A82-A458-9EB53C2BC9A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F3F3F91-0F45-4A82-A458-9EB53C2BC9A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4467A828-BC9D-44A7-A334-C95A561362A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4467A828-BC9D-44A7-A334-C95A561362A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4467A828-BC9D-44A7-A334-C95A561362A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4467A828-BC9D-44A7-A334-C95A561362A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1828547D-EDD8-45DB-8113-C85AE3ACB3B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1828547D-EDD8-45DB-8113-C85AE3ACB3B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1828547D-EDD8-45DB-8113-C85AE3ACB3B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1828547D-EDD8-45DB-8113-C85AE3ACB3B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29697316-1316-4C9D-B421-96EDD9F72EF6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29697316-1316-4C9D-B421-96EDD9F72EF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29697316-1316-4C9D-B421-96EDD9F72EF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29697316-1316-4C9D-B421-96EDD9F72EF6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E98315D-3B98-48DC-8E5F-759D3FF2F406}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E98315D-3B98-48DC-8E5F-759D3FF2F406}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E98315D-3B98-48DC-8E5F-759D3FF2F406}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E98315D-3B98-48DC-8E5F-759D3FF2F406}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B3AC62C7-F22F-4C25-BEE3-F942C76850B4}
+	EndGlobalSection
+EndGlobal
