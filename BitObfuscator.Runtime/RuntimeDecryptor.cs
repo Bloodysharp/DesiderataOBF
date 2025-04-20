@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace BitObfuscator.Runtime
 {
-    class RuntimeDecryptor
+    public class RuntimeDecryptor
     {
+        public static string DecryptWithRuntime(string encryptedText, string key)
+        {
+            return AESRuntime.Decrypt(encryptedText, key);
+        }
     }
 }

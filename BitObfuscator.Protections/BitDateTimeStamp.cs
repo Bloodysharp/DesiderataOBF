@@ -3,10 +3,16 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using BitObfuscator.Core;
 
 namespace BitObfuscator.Protections
 {
-    class BitDateTimeStamp
+    public class BitDateTimeStamp : IObfuscationProtection
     {
+        public void Apply(ObfuscationContext context)
+        {
+            //PEHeaderEditor.ClearTimeDateStamp(context.FilePath);
+        }
     }
+
 }

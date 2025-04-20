@@ -1,4 +1,5 @@
-﻿using System;
+﻿using BitObfuscator.Core;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,7 +7,8 @@ using System.Threading.Tasks;
 
 namespace BitObfuscator.Protections
 {
-    class IProtection
+    public interface IObfuscationProtection
     {
+        void Apply(ObfuscationContext context);
     }
 }

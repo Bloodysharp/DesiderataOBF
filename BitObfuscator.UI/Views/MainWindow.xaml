@@ -4,9 +4,36 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:BitObfuscator.UI.Views"
-        mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        xmlns:mah="http://metro.mahapps.com/winfx/xaml/controls"
+        Title="BitObfuscator" Height="450" Width="600"
+        Background="{DynamicResource {x:Static SystemColors.WindowBrushKey}}"
+        WindowStyle="None"
+        ResizeMode="CanResizeWithGrip"
+        WindowState="Maximized">
+    <Window.Resources>
+        <Style TargetType="Window" BasedOn="{StaticResource {x:Type Window}}">
+            <Style.Setters>
+                <Setter Property="Background" Value="#2D2D30"/>
+                <Setter Property="Foreground" Value="#FFFFFF"/>
+            </Style.Setters>
+        </Style>
+    </Window.Resources>
+
     <Grid>
-        
+        <Grid Background="{DynamicResource {x:Static SystemColors.WindowBrushKey}}">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+
+            <TextBlock Text="BitObfuscator" FontSize="24" FontWeight="Bold" Margin="20" Foreground="White"/>
+
+            <StackPanel Margin="20">
+                <TextBox Name="FilePathTextBox" Width="400" Margin="0,10,0,10" Text="Enter file path for obfuscation" Height="30" VerticalAlignment="Center" />
+                <Button Name="ObfuscateButton" Content="Obfuscate" Width="120" Height="35" HorizontalAlignment="Left" Margin="0,10,0,10" Click="ObfuscateButton_Click"/>
+                <ProgressBar Name="ProgressBar" Height="20" Width="400" IsIndeterminate="True" Margin="0,20,0,10"/>
+            </StackPanel>
+
+        </Grid>
     </Grid>
 </Window>
